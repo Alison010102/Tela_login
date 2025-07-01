@@ -1,0 +1,15 @@
+<body>
+    <div class="auth-container">
+        <h2>{{isLoginMode ? "Login": "Cadastro"}}</h2>
+
+        <form [formGroup]="form" (ngSubmit)="onSubmit()">
+            <div *ngif="!isLoginMode">
+                <label for="name">Name: </label>
+                <input id="name" formControlName ="name">
+            </div>
+            <label for="email">Email: </label>
+            <input id="email" formControlName="email">
+
+        </form>
+    </div>
+</body>minuto 17
