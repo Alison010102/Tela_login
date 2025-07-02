@@ -1,40 +1,49 @@
-🚪 Tela de Login e Cadastro em Angular
-Projeto simples de autenticação desenvolvido em Angular, implementando funcionalidades de login e cadastro com validação de formulário usando Reactive Forms.
+#Tela de Cadastro – Projeto Angular
+Este é um componente de cadastro de usuários desenvolvido com Angular e Reactive Forms. Ele faz parte de um sistema simples de autenticação baseado em armazenamento local.
 
-✨ Funcionalidades
-🔄 Modo login e cadastro com alternância dinâmica;
+##Funcionalidades
+Formulário de cadastro com validação de:
 
-✅ Validação dos campos (email, senha e nome);
+Nome (obrigatório)
 
-💾 Armazenamento de usuários no localStorage do navegador;
+E-mail (formato válido)
 
-🔐 Controle de estado do usuário logado;
+Senha (mínimo de caracteres definidos)
 
-🚀 Navegação protegida após login bem-sucedido;
+Armazenamento do usuário no localStorage do navegador
 
-🎨 Design responsivo com CSS customizado.
+Prevenção de cadastro com e-mail já existente
 
-🛠️ Tecnologias
-🅰️ Angular (componentes, formulários reativos, roteamento);
+Exibição de mensagens de erro e feedback de sucesso
 
-💻 TypeScript;
+Integração com controle de estado de usuário logado
 
-🎨 CSS puro para estilização;
+##Tecnologias Utilizadas
+Angular (componentes, formulários reativos)
 
-🗄️ LocalStorage para simular backend;
+TypeScript
 
-🦾 Biome para linting e formatação de código (organização de imports, padronização de estilo, regras recomendadas).
+CSS puro para estilização
 
-📦 Instalação
+LocalStorage para simulação de backend
 
+Biome para linting e padronização de código
+
+##Instalação
+Instale as dependências do projeto:
+
+bash
+Copiar
+Editar
+npm install
+Inicie o servidor de desenvolvimento:
+
+bash
+Copiar
+Editar
 ng serve
-Acesse http://localhost:4200 no seu navegador.
+##Acesse no navegador:
 
-🗂️ Estrutura do projeto
-src/app/auth — componente de autenticação (login e cadastro);
-
-src/app/home — área protegida após login;
-
-src/assets — arquivos estáticos;
-
-src/styles.css — estilos globais.
+Copiar
+Editar
+http://localhost:4200
