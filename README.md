@@ -27,3 +27,6 @@ Clone o repositório e instale as dependências:
 
 ```bash
 npm install
+ng serve
+Abra o navegador e acesse:
+http://localhost:4200
