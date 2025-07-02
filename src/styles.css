@@ -1,1 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+	font-family: "Fjalla One", sans-serif;
+	color: #0b2545;
+	background-color: #8da9c4;
+}
