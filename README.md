@@ -1,49 +1,29 @@
-#Tela de Cadastro – Projeto Angular
-Este é um componente de cadastro de usuários desenvolvido com Angular e Reactive Forms. Ele faz parte de um sistema simples de autenticação baseado em armazenamento local.
+# Tela de Cadastro – Projeto Angular
 
-##Funcionalidades
-Formulário de cadastro com validação de:
+Este é um componente de **cadastro de usuários** desenvolvido com **Angular** e **Reactive Forms**. Ele faz parte de um sistema simples de autenticação utilizando o **localStorage** como simulação de backend.
 
-Nome (obrigatório)
+## Funcionalidades
 
-E-mail (formato válido)
+- ✅ Formulário de cadastro com validações:
+  - **Nome** (campo obrigatório)
+  - **E-mail** (formato válido)
+  - **Senha** (mínimo de caracteres definidos)
+- 💾 Armazenamento de usuários no `localStorage` do navegador
+- 🔐 Prevenção de cadastro com e-mail já existente
+- ⚠️ Exibição de mensagens de erro e feedback de sucesso
+- 👤 Integração com controle de estado de usuário logado
 
-Senha (mínimo de caracteres definidos)
+## Tecnologias Utilizadas
 
-Armazenamento do usuário no localStorage do navegador
+- Angular (componentes, formulários reativos)
+- TypeScript
+- CSS puro para estilização
+- localStorage como simulação de backend
+- Biome para linting e padronização de código
 
-Prevenção de cadastro com e-mail já existente
+## Instalação
 
-Exibição de mensagens de erro e feedback de sucesso
+Clone o repositório e instale as dependências:
 
-Integração com controle de estado de usuário logado
-
-##Tecnologias Utilizadas
-Angular (componentes, formulários reativos)
-
-TypeScript
-
-CSS puro para estilização
-
-LocalStorage para simulação de backend
-
-Biome para linting e padronização de código
-
-##Instalação
-Instale as dependências do projeto:
-
-bash
-Copiar
-Editar
+```bash
 npm install
-Inicie o servidor de desenvolvimento:
-
-bash
-Copiar
-Editar
-ng serve
-##Acesse no navegador:
-
-Copiar
-Editar
-http://localhost:4200
